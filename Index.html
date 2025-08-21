@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coinbase Chat Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f6fa;
+            color: #1c1c1c;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #0052ff;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Coinbase Support</h1>
+        <p>Need help with your crypto account? Chat with us using the widget in the corner!</p>
+    </div>
+
+    <!-- Chaport Widget -->
+    <script>
+        (function(w,d,u){
+            w.ChaportID = 'YOUR_CHAPORT_ID'; // Replace this with your Chaport ID
+            var s=d.createElement('script');
+            s.type='text/javascript';s.async=true;s.src=u;
+            var x=d.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s,x);
+        })(window, document, 'https://app.chaport.com/javascripts/chaport.js');
+    </script>
+</body>
+</html>
